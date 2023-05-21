@@ -644,6 +644,12 @@ p {
   opacity: 0.5;
 }
 
+.contact {
+  border: 1px solid #2584ff;
+  padding: 1rem;
+  background-color: #2584ff;
+}
+
 .hamburger_menu {
   width: 34px;
   height: 34px;
@@ -795,11 +801,21 @@ p {
 }
 
 .img__container2 {
-  background-color: #00d9ff;
+  background-color: #62e0f7;
+  margin-bottom: 1.8rem;
+}
+
+.img__container3 {
+  background-color: #1b0760;
   margin-bottom: 1.8rem;
 }
 
 .stack {
+  display: flex;
+  gap: 2rem;
+}
+
+.stack p {
   color: #666666;
   margin: 0 3.2rem 2.4rem 0;
   font-size: 1.2rem;
